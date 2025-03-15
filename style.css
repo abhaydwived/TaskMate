@@ -64,22 +64,23 @@ header {
 main {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    gap: 20px;
-    padding: 20px;
-    width: 90%;
+    gap: 10px;
+    padding: 30px;
+    width: 100%;
     max-width: 1200px;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .tracker {
     background: var(--card-bg);
-    display: flex;
-    align-items: center;
     padding: 3em; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     text-align: center;
     width: 100%; 
-    max-width: 500px;
+    max-width: 600px;
 }
 
 
@@ -125,20 +126,21 @@ input {
     }
 
     button {
-        width: 100%;  
+        width: 25%;  
     }
 
     #theme {
         top: 10px;
         right: 10px;
-        padding: 8px 12px; 
+        padding: 8px 12px;
+        width: 25%; 
     }
 }
 
 
 @media (min-width: 1200px) {
     main {
-        max-width: 1400px; 
+        max-width: 1200px; 
     }
 }
 
